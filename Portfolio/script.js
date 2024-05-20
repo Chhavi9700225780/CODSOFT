@@ -14,6 +14,11 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener('scroll', () => {
         let scrollY = window.scrollY;
 
+
+
+
+
+        
         sections.forEach(section => {
             let sectionTop = section.offsetTop - 150;
             let sectionHeight = section.offsetHeight;
